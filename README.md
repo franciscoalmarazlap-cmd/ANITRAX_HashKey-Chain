@@ -15,10 +15,10 @@
 
 | Resource | URL |
 |---|---|
-| 🌍 Website | https://franciscoalmarazlap-cmd.github.io/ANITRAWEBZK.github/ |
+| 🌍 Website | https://franciscoalmarazlap-cmd.github.io/ANITRAXWEBHashKey-Chain/ |
 | 🟣 Live Contract on HashKey Chain Testnet | https://testnet-explorer.hsk.xyz/address/0xe784BF251160506Aa016Dc998218a6f552ca5e73 |
-| 🎥 YouTube Demo | https://youtu.be/QVREoHfyEoE |
-| 🔗 Repository | https://github.com/franciscoalmarazlap-cmd/ANITRAXGASPER |
+| 🎥 YouTube Demo | https://youtu.be/QVREoHfyEoE?si=psbOALnukDiSzVUP |
+| 🔗 Repository |https://github.com/franciscoalmarazlap-cmd/ANITRAXWEBHashKey-Chain|
 
 ---
 
