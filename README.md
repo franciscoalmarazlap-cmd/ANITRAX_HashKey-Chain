@@ -322,10 +322,6 @@ All modes include 5 colorblind filters. **Access to money should never depend on
 
 Designed and built the entire system end to end: the Android application (Kotlin), the autonomous AI agent and all its capabilities (memory, financial analysis, multi-step commands, scheduling, emergency fund, voice reports), the smart contracts on HashKey Chain (Solidity) and Casper (Odra/Rust), the Zero-Knowledge proof system (Circom/snarkjs), the Bluetooth P2P transfer layer, the Offline Smart Queue, the HSP settlement integration, the accessibility modes, and the on-chain agent audit architecture.
 
-**Supporting team (submission):**
-- Edmundo Julian Macias Martinez — wallet & smart contract assistance
-- Oscar Arroyo Pereyda — UI/UX design assistance
-- Jose Carlos Sixto Herrera — project planning
 
 ## ⚠️ Notes
 
