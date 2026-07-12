@@ -1,0 +1,38 @@
+[package]
+name = "anitrax-contract"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "anitrax_contract_build_contract"
+path = "src/bin/build.rs"
+test = false
+required-features = ["build-contract"]
+[[bin]]
+name = "deploy"
+path = "src/bin/deploy.rs"
+required-features = ["livenet"]
+
+[lib]
+name = "anitrax_contract"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+odra = { version = "2.8.2", default-features = false }
+odra-build = { version = "2.8.2", optional = true }
+odra-casper-livenet-env = { version = "2.8.2", optional = true }
+[dev-dependencies]
+odra = { version = "2.8.2", default-features = true }
+odra-test = "2.8.2"
+
+[build-dependencies]
+odra-build = "2.8.2"
+
+[features]
+default = []
+build-contract = ["odra-build"]
+livenet = ["odra-casper-livenet-env"]
+[profile.release]
+opt-level = "z"
+overflow-checks = true
+lto = true
